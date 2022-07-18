@@ -1,0 +1,16 @@
+[package]
+name = "bevy_asset_metadata_updater"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.58"
+base64 = "0.13.0"
+cargo_toml = "0.11.5"
+dotenv = "0.15.0"
+reqwest = { version = "0.11.11", features = ["blocking", "json"] }
+serde = "1.0.139"
+serde_derive = "1.0.139"
+toml = "0.5.9"
+url = "2.2.2"
+walkdir = "2.3.2"
