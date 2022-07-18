@@ -1,0 +1,3 @@
+# bevy_asset_metadata_updater
+
+This is a simple tool that will check all the toml file of the bevy-assets and get the bevy version and license
